@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <!-- Windows Forms só para o ícone na bandeja (NotifyIcon) -->
+    <UseWindowsForms>true</UseWindowsForms>
+    <!-- Permite compilar em outros sistemas (ex.: conferir em Linux) -->
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>Coruja</AssemblyName>
+    <RootNamespace>Coruja</RootNamespace>
+    <StartupObject>Coruja.Program</StartupObject>
+    <ApplicationIcon>assets\coruja.ico</ApplicationIcon>
+    <Version>1.0.0</Version>
+    <Product>Coruja</Product>
+    <Description>Um amiguinho de mesa que mantém o computador acordado</Description>
+    <Authors>Rafael Jesus</Authors>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+  </PropertyGroup>
+
+</Project>
