@@ -10,11 +10,11 @@ Um amiguinho de mesa que mantém o computador acordado.
 Ela é pequena, fica num cantinho da tela e tem vida própria: respira, pisca, olha para o
 mouse, passeia, toma café, almoça e dorme no ninho.
 
-> Também existe para [macOS](https://github.com/RafaelRJesus/coruja) e [Linux](https://github.com/RafaelRJesus/coruja-linux).
+> Também existe para [macOS](https://github.com/RafaelRJesus/MAC_Coruja) e [Linux](https://github.com/RafaelRJesus/Linux_Coruja).
 
 ## Instalação
 
-1. Baixe o **Coruja.exe** na página de [Releases](https://github.com/RafaelRJesus/coruja-windows/releases/latest).
+1. Baixe o **Coruja.exe** na página de [Releases](https://github.com/RafaelRJesus/Windows_Coruja/releases/latest).
 2. Dê dois cliques. Não precisa instalar nada (nem o .NET).
 
 Como o app não tem assinatura digital paga, o Windows pode mostrar o aviso
