@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Compila só a lógica da coruja (sem WPF) e simula horas de animação.
+       Roda em qualquer sistema com: dotnet run (na pasta tests/LogicCheck) -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/Coruja/Logic/**/*.cs" />
+  </ItemGroup>
+</Project>
